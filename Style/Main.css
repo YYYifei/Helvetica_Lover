@@ -44,9 +44,9 @@ body {
 
   ul {
     display: flex;
-    justify-content: space-around;
-    background: yellow;
-    line-height: 40px;
+    justify-content:space-between;
+    background: #f68e5f;
+    line-height: 10px;
     list-style: none;
   }
 
