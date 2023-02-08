@@ -25,7 +25,9 @@ nav {
     font-style: bold;
 }
 
-
+h3 {
+    text-align: center;
+}
 
 .pullquote {
     font-family: 'Anton', sans-serif;
