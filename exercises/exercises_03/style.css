@@ -47,3 +47,9 @@ p {
 width: 60%;
 
 }
+
+.note {
+    background: tomato;
+    font-family: 'Anton', sans-serif;
+    font-size:medium;
+}
