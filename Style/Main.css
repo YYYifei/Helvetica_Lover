@@ -43,7 +43,7 @@ body {
   }
 
   ul {
-    display: flex;
+    display:inline;
     justify-content:center;
     background: #f68e5f;
     margin: 20px;
