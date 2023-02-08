@@ -35,13 +35,13 @@ body {
     width: 400px;
     height: 400px;
     background: #324376;
-    border: 4px solid #f5dd90;
+    border: 4px solid #586ba4;
     margin: 10px;
   }
 
 .subtitle {
     color: #f76c5e;
     font-family: 'Urbanist', sans-serif;
-    font-size: 40px;
+    font-size: 20px;
     text-align: center;
 }
