@@ -4,7 +4,7 @@ body {
 
 .tab {
     font-family: 'Roboto Mono', monospace;
-    color: blue;
+    background: burlywood;
 }
 
 p {
