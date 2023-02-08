@@ -26,8 +26,8 @@ h1 {color: rgb(155, 191, 166);}
 }
 
 .item{
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
     background: blue;
     margin: 10px;
   }
