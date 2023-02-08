@@ -40,6 +40,8 @@ width: 100%
 }
 
 p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: medium;
 width: 50%;
 
 }
