@@ -1,4 +1,9 @@
-h1 {color: rgb(155, 191, 166);}
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  background: #e4f0d0;
+  height: 100%;
+}
 
 .title {
     color: #f76c5e;
