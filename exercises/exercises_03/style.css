@@ -18,8 +18,6 @@ h1 {
     font-family: 'Lexend', sans-serif;
     font-family: 'Roboto Mono', monospace;
 
-
-
 }
 
 
@@ -27,5 +25,13 @@ h1 {
 .pullquote {
     font-family: 'Anton', sans-serif;
 color: blueviolet;
+font-size: 32px;
+font-style: italic;
+line-height: 48px;
+
+}
+
+p {
+width: 50%;
 
 }
