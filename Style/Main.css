@@ -50,7 +50,10 @@ body {
     line-height: 20px;  
   }
 
-  li {list-style: none;}
+  li {list-style: none;
+    list-style-type: none;
+
+}
 
 .subtitle {
     color: #324376;
