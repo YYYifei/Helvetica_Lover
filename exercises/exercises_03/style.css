@@ -11,6 +11,10 @@ body {font-family: 'Hind', sans-serif;
     line-height: 28px;
 }
 
+nav {
+    height: 45px;
+    background: tomato;
+}
 
 h1 {
     font-family: 'Anton', sans-serif;
