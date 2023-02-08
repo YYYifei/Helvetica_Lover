@@ -48,6 +48,7 @@ body {
     background: #f68e5f;
     line-height: 20px; 
     margin: 5%; 
+    list-style: none;
   }
 
   li {
