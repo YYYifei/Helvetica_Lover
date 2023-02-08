@@ -47,9 +47,10 @@ body {
     justify-content:center;
     background: #f68e5f;
     margin: 20px;
-    line-height: 20px;
-    list-style: none;
+    line-height: 20px;  
   }
+
+  li {list-style: none;}
 
 .subtitle {
     color: #324376;
