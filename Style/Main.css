@@ -46,7 +46,8 @@ body {
   
     justify-content:center;
     background: #f68e5f;
-    line-height: 20px;  
+    line-height: 20px; 
+    margin: 20%; 
   }
 
   li {
