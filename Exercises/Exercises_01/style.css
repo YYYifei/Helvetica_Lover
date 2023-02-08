@@ -1,6 +1,13 @@
 body {
     font-family: 'Quicksand', sans-serif;
 }
+
+.navigator {
+    font-family: 'Bebas Neue', cursive;
+    
+
+}
+
 p {
     color: blueviolet;
 
