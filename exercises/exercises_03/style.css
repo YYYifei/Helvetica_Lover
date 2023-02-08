@@ -17,11 +17,10 @@ nav {
     font-size: medium;
 }
 
-h1 {
-    font-family: 'Anton', sans-serif;
-    font-family: 'Hind', sans-serif;
+.title {
+    color: #2ec4b6;
     font-family: 'Lexend', sans-serif;
-    font-family: 'Roboto Mono', monospace;
+    
 
 }
 
