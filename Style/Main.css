@@ -46,6 +46,8 @@ body {
     display:inline;
     justify-content:center;
     background: #f68e5f;
+    width: 100px;
+    height: 100px;
     margin: 20px;
     line-height: 20px;  
   }
