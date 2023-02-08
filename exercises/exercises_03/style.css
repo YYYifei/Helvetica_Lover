@@ -30,7 +30,7 @@ h3 {
 }
 
 .pullquote {
-    text-align: end;
+    text-align:justify;
     font-family: 'Anton', sans-serif;
 color: blueviolet;
 font-size: 32px;
