@@ -1,16 +1,17 @@
 body {
     font-family: 'Quicksand', sans-serif;
+    color: #fefae0;
 }
 
 .tab {
     font-family: 'Anton', sans-serif;
     font-size: medium;
     font-style: bold;
-    background: #f76c5e;
+    background: #b5838d;
 }
 
 .title {
-    color: #2f4858;
+    color: #ccd5ae;
     font-family: 'Orbitron', sans-serif;
     font-size: 40px;
     font-style: bold;
