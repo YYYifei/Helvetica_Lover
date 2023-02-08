@@ -17,6 +17,21 @@ h1 {color: rgb(155, 191, 166);}
     color: #324376;
 }
 
+.tab {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.item{
+    width: 200px;
+    height: 200px;
+    background: blue;
+    margin: 10px;
+  }
+
 .subtitle {
     color: #f76c5e;
     font-family: 'Urbanist', sans-serif;
