@@ -42,6 +42,14 @@ body {
     color: #f5dd90;
   }
 
+  ul {
+    display: flex;
+    justify-content: space-around;
+    background: yellow;
+    line-height: 40px;
+    list-style: none;
+  }
+
 .subtitle {
     color: #324376;
     font-family: 'Urbanist', sans-serif;
