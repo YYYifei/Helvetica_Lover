@@ -3,6 +3,7 @@ h1 {color: rgb(155, 191, 166);}
 .title {
     color: rgb(209, 0, 122);
     font-family: 'Urbanist', sans-serif;
+    text-align: center;
     }
 
 bio {
