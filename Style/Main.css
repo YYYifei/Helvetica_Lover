@@ -44,7 +44,7 @@ body {
 
   ul {
     display: flex;
-    justify-content:left;
+    justify-content:flex-start;
     background: #f68e5f;
     line-height: 20px;
     list-style: none;
