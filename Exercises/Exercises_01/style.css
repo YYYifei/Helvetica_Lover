@@ -5,7 +5,14 @@ body {
 .tab {
     font-family: 'Anton', sans-serif;
     font-size: large;
+    font-style: bold;
     background: #f76c5e;
+}
+
+.title {
+    font-family: 'Lobster', cursive;
+    font-size: large;
+    font-style: bold;
 }
 
 p {
