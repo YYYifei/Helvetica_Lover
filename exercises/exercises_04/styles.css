@@ -32,7 +32,6 @@ body {
   height: 900px;
   background: #d3e8e1;
   text-align: center;
-  list-style: none;
   color: #e44a66;
 }
 .item02 {
@@ -40,7 +39,6 @@ body {
   height: 900px;
   background: #c7c6c4;
   text-align: center;
-  list-style: none;
   color: #0c3934;
 }
 .item03 {
@@ -48,7 +46,13 @@ body {
   height: 1500px;
   background: #005397;
   text-align: center;
-  list-style: none;
+  color: #f4c7ee;
+}
+.item04 {
+  width: 600px;
+  height: 1500px;
+  background: #005397;
+  text-align: center;
   color: #f4c7ee;
 }
 .item{
