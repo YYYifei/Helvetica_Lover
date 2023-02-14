@@ -102,6 +102,15 @@ h1 {
   width: 100%;
   margin: 10px;
 }
+.pullquote03 {
+  font-family: 'Libre Baskerville', serif;
+  color: #efe8d8;
+  font-size: 28px;
+  font-style: italic;
+  line-height: 35px;
+  width: 100%;
+  margin: 10px;
+}
 .pullquote {
   font-family: 'Libre Baskerville', serif;
   color: #714a4a;
