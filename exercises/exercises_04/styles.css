@@ -47,6 +47,10 @@ body {
   }
 
 
+.Paragraph01 {
+  text-align:left;
+}
+
 .container {
   padding: 20px 40px;
   line-height: 28px;
