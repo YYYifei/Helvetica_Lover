@@ -56,11 +56,11 @@ body {
   color: #f2cb6c;
 }
 .item05 {
-  width: 300px;
-  height: 2000px;
-  background: #d3e8e1;
+  width: 500px;
+  height: 2600px;
+  background: #dcb2a3;
   text-align: center;
-  color: #e44a66;
+  color: #007c81;
 }
 .item{
     width: 400px;
@@ -132,6 +132,15 @@ h1 {
   margin: 5px;
 }
 .pullquote04 {
+  font-family: 'Libre Baskerville', serif;
+  color: #fedccc;
+  font-size: 28px;
+  font-style: italic;
+  line-height: 35px;
+  width: 100%;
+  margin: 5px;
+}
+.pullquote05 {
   font-family: 'Libre Baskerville', serif;
   color: #fedccc;
   font-size: 28px;
