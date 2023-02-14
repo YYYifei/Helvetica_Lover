@@ -67,7 +67,7 @@ body {
   height: 1650px;
   background: #ff9966;
   text-align: center;
-  color: #cf2f89;
+  color: #19227d;
 }
 
 .item{
@@ -104,6 +104,11 @@ body {
 .Paragraph05 {
   text-align:left;
   color: #007c81;
+  margin: 10px;
+}
+.Paragraph06 {
+  text-align:left;
+  color: #19227d;
   margin: 10px;
 }
 
