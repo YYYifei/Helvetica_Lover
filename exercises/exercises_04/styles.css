@@ -1,4 +1,11 @@
 html,
+
+nav {
+    background: tomato;
+    font-family: 'Anton', sans-serif;
+    font-size:medium;
+}
+
 body {
   font-family: 'Figtree', sans-serif;
   background: #e4f0d0;
