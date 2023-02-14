@@ -62,6 +62,14 @@ body {
   text-align: center;
   color: #007c81;
 }
+.item06 {
+  width: 500px;
+  height: 1650px;
+  background: #ff9966;
+  text-align: center;
+  color: #cf2f89;
+}
+
 .item{
     width: 400px;
     height: 1200px;
