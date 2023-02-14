@@ -79,7 +79,14 @@ h1 {
   line-height: 48px;
   width: 100%;
 }
-
+.pullquote02 {
+  font-family: 'Libre Baskerville', serif;
+  color: #cb323e;
+  font-size: 32px;
+  font-style: italic;
+  line-height: 48px;
+  width: 100%;
+}
 .pullquote {
   font-family: 'Libre Baskerville', serif;
   color: #714a4a;
