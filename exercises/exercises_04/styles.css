@@ -5,6 +5,14 @@ body {
   height: 100%;
 }
 
+.tab {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
 .item{
     width: 400px;
     height: 400px;
