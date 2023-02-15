@@ -44,7 +44,6 @@ main {
     .flex-container {
         background: pink;
     }
-
 }
 
 @media (max-width: 450px) {
