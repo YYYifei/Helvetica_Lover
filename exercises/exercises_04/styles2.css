@@ -23,6 +23,10 @@ color: blue;
     flex-direction: column;
 }
 
+header, footer {
+    padding: 50px;
+}
+
 .smallimage {
     width: 300px
 }
