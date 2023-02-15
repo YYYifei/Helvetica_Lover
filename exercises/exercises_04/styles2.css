@@ -24,7 +24,7 @@ color: blue;
 }
 
 header, footer {
-    padding: 50px;
+    line-height: 60px;
 }
 
 .smallimage {
