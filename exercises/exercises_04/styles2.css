@@ -48,6 +48,10 @@ main {
     main{
         flex-direction: column;
     }
+
+    .column {
+        width: 100%;
+    }
 }
 
 .smallimage {
