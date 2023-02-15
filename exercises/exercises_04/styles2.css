@@ -46,7 +46,7 @@ main {
     }
 
     main{
-        flex-direction: row;
+        flex-direction: column;
     }
 }
 
