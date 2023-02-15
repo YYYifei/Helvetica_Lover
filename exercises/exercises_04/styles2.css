@@ -4,6 +4,15 @@
     box-sizing: boader-box;
 }
 
+.html, body {
+height: 100%;
+}
+
+body {
+    background: papayawhip;
+    min-height: 100vh;
+}
+
 .flex-container {
     display: flex;
     flex-direction: column;
