@@ -44,6 +44,10 @@ main {
     .flex-container {
         background: orange;
     }
+
+    main{
+        flex-direction: row;
+    }
 }
 
 .smallimage {
