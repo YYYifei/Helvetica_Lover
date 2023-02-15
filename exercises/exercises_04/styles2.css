@@ -1,3 +1,14 @@
+*{
+    margin: 0;
+    padding: 0
+    box-sizing: boader-box;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
 .smallimage {
     width: 300px
 }
@@ -10,7 +21,3 @@
     width: 900px;
 }
 
-.flex-container {
-    display: flex;
-    flex-direction: column;
-}
