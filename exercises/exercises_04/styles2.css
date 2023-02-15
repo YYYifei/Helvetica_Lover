@@ -27,6 +27,10 @@ header, footer {
     line-height: 60px;
 }
 
+main {
+    flex:1;
+}
+
 .smallimage {
     width: 300px
 }
