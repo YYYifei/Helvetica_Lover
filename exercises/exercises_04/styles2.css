@@ -9,3 +9,8 @@
 .largeimage{
     width: 900px;
 }
+
+.flex-container {
+    display: flex;
+    
+}
