@@ -22,7 +22,6 @@ color: blue;
     display: flex;
     flex-direction: column;
     height: 100%;
-    overflow: auto;
 }
 
 header, footer {
@@ -31,6 +30,7 @@ header, footer {
 
 main {
     flex: 1;
+    overflow: auto;
 }
 
 .smallimage {
