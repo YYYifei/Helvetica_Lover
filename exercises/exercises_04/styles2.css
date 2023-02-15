@@ -40,6 +40,10 @@ main {
     width: 50%;
 }
 
+.smallimage {
+    width: 200px;
+}
+
 @media (max-width: 600px) {
     .flex-container {
         background: pink;
@@ -60,16 +64,3 @@ main {
         width: 100%;
     }
 }
-
-.smallimage {
-    width: 200px
-}
-
-.mediumimage{
-    width: 600px;
-}
-
-.largeimage{
-    width: 900px;
-}
-
