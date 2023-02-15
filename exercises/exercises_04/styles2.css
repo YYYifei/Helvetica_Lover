@@ -33,6 +33,11 @@ main {
     overflow: auto;
 }
 
+.column {
+    padding: 20px;
+    height: 100%;
+}
+
 .smallimage {
     width: 300px
 }
