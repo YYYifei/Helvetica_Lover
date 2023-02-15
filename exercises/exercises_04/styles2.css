@@ -1,3 +1,11 @@
-img {
+.smallimage {
     width: 300px
+}
+
+.mediumimage{
+    width: 600px;
+}
+
+.largeimage{
+    width: 900px;
 }
