@@ -40,6 +40,12 @@ main {
     width: 50%;
 }
 
+@media (max-width: 450px) {
+    .flex-container {
+        background: orange;
+    }
+}
+
 .smallimage {
     width: 200px
 }
