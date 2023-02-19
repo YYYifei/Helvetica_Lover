@@ -142,7 +142,7 @@ p {
       }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 500px) {
     .flex-container {
       background: orange;
     }
