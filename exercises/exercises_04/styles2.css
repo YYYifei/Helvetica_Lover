@@ -122,7 +122,7 @@ p {
 
 @media (max-width: 700px) {
     .flex-container {
-        background: p#f9dbbd;
+        background: #f9dbbd;
     }
 
     main, body, footer {
