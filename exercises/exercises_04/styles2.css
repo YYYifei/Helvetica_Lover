@@ -85,7 +85,7 @@ p {
   
 @media (max-width: 1000px) {
     .flex-container {
-        background: #eef4ed;
+        background: #f1faee;
       }
     
     main, body, footer {
@@ -94,7 +94,7 @@ p {
         }
     
     .pullquote {
-            color: #bf4342;
+            color: #e63946;
             font-family: "Libre Baskerville", serif;
             font-style: italic;
             font-size: 1.68em;
