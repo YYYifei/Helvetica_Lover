@@ -11,13 +11,13 @@ height: 100%;
 
 body {
     font-family: "Roboto", sans-serif;
-    background: papayawhip;
+    background: #fefae0;
     min-height: 100vh;
   }  
 
 main, body, footer {
 padding: 20px;
-color: blue;
+color: #004e89;
 }
 
 .flex-container {
@@ -64,7 +64,7 @@ p {
 }
 
 .pullquote {
-    color: tomato;
+    color: #ff6b35;
     font-family: "Libre Baskerville", serif;
     font-style: italic;
     font-size: 1.68em;
@@ -85,7 +85,7 @@ p {
   
 @media (max-width: 960px) {
     .flex-container {
-        background: green;
+        background: red;
       }
     
       main {
