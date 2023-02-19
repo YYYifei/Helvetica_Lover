@@ -122,13 +122,28 @@ p {
 
 @media (max-width: 700px) {
     .flex-container {
-        background: pink;
+        background: p#f9dbbd;
     }
+
+    main, body, footer {
+        padding: 20px;
+        color: #450920;
+        }
 
     main{
         display: flex;
         flex-direction: column;
     }
+
+    .pullquote {
+        color: #fb6376;
+        font-family: "Libre Baskerville", serif;
+        font-style: italic;
+        font-size: 1.68em;
+        line-height: 1.4em;
+        padding: 15px 0;
+    }
+
 
     .column-wrapper {
         display: flex;
