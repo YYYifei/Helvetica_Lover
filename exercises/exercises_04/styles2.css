@@ -88,6 +88,20 @@ p {
         background: #dde7c7;
       }
     
+    main, body, footer {
+        padding: 20px;
+        color: #034732;
+        }
+    
+    .pullquote {
+            color: #ef8a17;
+            font-family: "Libre Baskerville", serif;
+            font-style: italic;
+            font-size: 1.68em;
+            line-height: 1.4em;
+            padding: 15px 0;
+        }
+
       main {
         display: flex;
         flex-direction: column;
