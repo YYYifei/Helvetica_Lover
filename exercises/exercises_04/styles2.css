@@ -34,12 +34,42 @@ main {
     flex: 1;
     overflow: auto;
     display: flex;
+    flex-direction: column;
+  }
+
+.column-wrapper {
+    display: flex;
+}
+  
+.left-column, .right-column {
+    width: 50%;
+    flex-direction: row;
+    display:flex;
+}
+
+h1 {
+    text-transform: capitalize;
+    font-size: 2.68em;
+}
+
+p {
+    line-height: 1.68em;
+    padding-bottom: 1em;
 }
 
 .column {
     padding: 20px;
     height: 100%;
     width: 50%;
+}
+
+.pullquote {
+    color: tomato;
+    font-family: "Libre Baskerville", serif;
+    font-style: italic;
+    font-size: 1.68em;
+    line-height: 1.4em;
+    padding: 15px 0;
 }
 
 .smallimage {
@@ -53,16 +83,32 @@ main {
     object-position: 0% 50%;
   }
   
+@media (max-width: 960px) {
+    .flex-container {
+        background: green;
+      }
+    
+      main {
+        display: flex;
+        flex-direction: column;
+      }
+    
+      .column-wrapper {
+        display: flex;
+        flex-direction: column;
+      }
+    
+      .left-column, .right-column {
+        width: 100%;
+        flex-direction: row;
+        display:flex;
+      }
+}
+
 
 @media (max-width: 600px) {
     .flex-container {
         background: pink;
-    }
-}
-
-@media (max-width: 450px) {
-    .flex-container {
-        background: orange;
     }
 
     main{
@@ -70,7 +116,43 @@ main {
         flex-direction: column;
     }
 
-    .column {
+    .column-wrapper {
+        display: flex;
+        flex-direction: column;
+      }
+    
+      .left-column, .right-column {
         width: 100%;
-    }
+        flex-direction: row;
+        display:flex;
+      }
 }
+
+@media (max-width: 450px) {
+    .flex-container {
+      background: orange;
+    }
+  
+    main {
+      display: flex;
+    }
+  
+    .column-wrapper {
+      flex-direction: column;
+    }
+  
+    .left-column, .right-column {
+      width: 100%;
+      flex-direction: column;
+      display:flex;
+    }
+  
+    .column {
+      width: 100%;
+    }
+  
+    .image img {
+      height: 380px;
+      object-position: 50% 50%;
+    }
+  }
