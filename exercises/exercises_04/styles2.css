@@ -85,7 +85,7 @@ p {
   
 @media (max-width: 960px) {
     .flex-container {
-        background: red;
+        background: #f7c59f;
       }
     
       main {
