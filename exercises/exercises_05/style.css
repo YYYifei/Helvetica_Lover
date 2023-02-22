@@ -31,8 +31,17 @@ li:hover{ animation: colors 5s ease 0.5s;
 }
 
 @keyframes colors {
-    0% {background-color: tomato;}
-    40% {background-color: pink;}
-    60% {background-color: yellow;}
-    100% {background-color: tomato;}
+    0% {
+        background-color: tomato;
+      }
+      40% {
+        background-color: #CC0000;
+      }
+      60% {
+        background-color: #800000;
+      }
+      100% {
+        background-color: tomato;
+      }
+    }
 }
