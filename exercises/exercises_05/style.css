@@ -26,7 +26,7 @@ a {
 }
 
 li {padding: 0 40px;}
-li:hover{
+li:hover{ animation: color 5s ease 0.5s;
 
 }
 
