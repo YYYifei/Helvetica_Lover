@@ -8,6 +8,18 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.titleblock {
+    margin: 65px;
+    border: 4px solid #f76c5e;
+    padding: 10px;
+    background: #f5dd90;
+    text-align: left;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    color: #324376;
+}
+
 .tab01 {
     display: flex;
     justify-content: space-evenly;
