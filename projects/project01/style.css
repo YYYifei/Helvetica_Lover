@@ -81,7 +81,7 @@ main {
     flex: 1;
     overflow: auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
 
   .titleblock01 {
