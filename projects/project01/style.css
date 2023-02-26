@@ -100,7 +100,7 @@ main {
   flex-wrap:nowrap;
   justify-content: left;
   font-style: bold;
-  font-size: 1.5em;
+  font-size: 45px;
   width: 30%;
   /*margin-bottom: 20px;*/
 }
