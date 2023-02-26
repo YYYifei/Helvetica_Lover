@@ -4,9 +4,12 @@
     box-sizing: border-box;
 }
 
-.navbar
-{
-   background-color: transparent;
+.nav {
+   background-color: #0005;
+}
+.nav ul {
+  float: right;
+  margin-right: 10px;
 }
 
 html, body {
