@@ -147,7 +147,7 @@ p {
 }
 
 .column {
-    padding: 30px;
+    padding: 25px;
     flex-direction: row;
     display:flex;
 }
