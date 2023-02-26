@@ -64,6 +64,14 @@ html, body {
   line-height: 100px;
 }
 
+.container01 {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  background: tomato;
+  line-height: 60px;
+}
+
 main {
     flex: 1;
     overflow: auto;
