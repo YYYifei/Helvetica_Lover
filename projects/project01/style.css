@@ -5,12 +5,12 @@
 }
 
 .nav {
-   background-color: transparent;
+  background-color: rgba(0, 0, 0, 0);
 }
-.nav ul {
+/*.nav ul {
   float: right;
   margin-right: 10px;
-}
+}*/
 
 html, body {
   height: 100%;
