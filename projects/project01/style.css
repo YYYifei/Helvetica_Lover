@@ -12,6 +12,12 @@
   margin-right: 10px;
 }*/
 
+.main-navigation:not(.is_stuck) {
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+
 html, body {
   height: 100%;
   }
