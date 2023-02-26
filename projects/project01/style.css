@@ -5,7 +5,7 @@
 }
 
 .nav {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(255, 255, 255, 0);
 }
 /*.nav ul {
   float: right;
@@ -40,7 +40,7 @@ html, body {
 
 .column-wrapper01 {
   display: flex;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(255, 255, 255, 0);
 }
 
 .left-column01 {
@@ -51,25 +51,17 @@ html, body {
   font-family: 'Secular One', sans-serif;
   font-style: bold;
   color: black;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(255, 255, 255, 0);
 }
 
 .right-column01 {
   width: 50%;
   flex-direction: row;
   display: flex;
- /* justify-content: right;*/
+  justify-content: right;
   list-style-type: none;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(255, 255, 255, 0);
   line-height: 100px;
-}
-
-.container01 {
-  display: flex;
-  justify-content: space-around;
-  list-style-type: none;
-  background: transparent;
-  line-height: 60px;
 }
 
 main {
