@@ -95,10 +95,17 @@ main {
     display: flex;
 }
   
-.left-column, .right-column {
-    width: 50%;
+.left-column {
+    width: 100%;
     flex-direction: row;
     display:flex;
+    background: pink;
+}
+
+.right-column {
+  width: 100%;
+  flex-direction: row;
+  display:flex;
 }
 
 h1 {
