@@ -99,7 +99,9 @@ main {
   display:flex;
   flex-wrap: wrap;
   justify-content: space-around;
-
+  background: yellow;
+  font-style: bold;
+  font-size: 1.5em;
   width: 30%;
   margin-bottom: 20px;
 }
