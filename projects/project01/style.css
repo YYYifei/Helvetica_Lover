@@ -111,6 +111,10 @@ main {
   background: green;
 }
 
+.smallimage {
+  width: 200px;
+}
+
 h1 {
     font-size: 25px;
     font-family: 'Golos Text', sans-serif;
