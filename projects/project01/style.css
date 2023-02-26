@@ -137,6 +137,8 @@ main {
     /*font-family: 'Golos Text', sans-serif;*/
     font-family: 'Open Sans', sans-serif;
     padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 p {
