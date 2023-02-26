@@ -98,7 +98,7 @@ main {
 .stacked {
   display:flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: left;
   background: yellow;
   font-style: bold;
   font-size: 1.5em;
