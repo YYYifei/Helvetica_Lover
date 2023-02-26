@@ -40,7 +40,8 @@ html, body {
   display: flex;
   justify-content: right;
   list-style-type: none;
-  line-height: 120px;
+  background: transparent;
+  line-height: 100px;
 }
 
 .container01 {
