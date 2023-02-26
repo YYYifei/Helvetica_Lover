@@ -70,6 +70,10 @@ html, body {
   list-style-type: none;
   background: transparent;
   line-height: 90px;
+  font-size: 60px;
+  font-family: 'Noticia Text', serif;
+  font-style: italic;
+  background: transparent;
 }
 
 li {padding: 0 5px;}
