@@ -24,6 +24,16 @@ html, body {
     height: 100%;
 }
 
+.column-wrapper01 {
+  display: flex;
+}
+
+.left-column01, .right-column01 {
+  width: 50%;
+  flex-direction: row;
+  display:flex;
+}
+
 .container01 {
   display: flex;
   justify-content: space-around;
