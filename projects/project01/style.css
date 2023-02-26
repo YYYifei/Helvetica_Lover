@@ -58,7 +58,7 @@ html, body {
   width: 50%;
   flex-direction: row;
   display: flex;
-  justify-content: right;
+  justify-content: space-around;
   list-style-type: none;
   background-color: rgba(255, 255, 255, 0);
   line-height: 100px;
@@ -68,8 +68,8 @@ html, body {
   display: flex;
   justify-content: space-around;
   list-style-type: none;
-  background: tomato;
-  line-height: 60px;
+  background: transparent;
+  line-height: 90px;
 }
 
 main {
