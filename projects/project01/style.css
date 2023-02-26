@@ -106,6 +106,7 @@ main {
   width: 100%;
   flex-direction: row;
   display:flex;
+  background: green;
 }
 
 h1 {
