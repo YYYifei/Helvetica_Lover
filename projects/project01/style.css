@@ -132,7 +132,7 @@ main {
   width: 200px;
 }
 
-h1 {
+.CollectionName {
     font-size: 25px;
     /*font-family: 'Golos Text', sans-serif;*/
     font-family: 'Open Sans', sans-serif;
