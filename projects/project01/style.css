@@ -34,12 +34,14 @@ html, body {
 
 .column-wrapper01 {
   display: flex;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .left-column01 {
   width: 50%;
   flex-direction: row;
   display:flex;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .right-column01 {
@@ -48,7 +50,7 @@ html, body {
   display: flex;
  /* justify-content: right;*/
   list-style-type: none;
-  background: transparent;
+  background-color: rgba(0, 0, 0, 0);
   line-height: 100px;
 }
 
