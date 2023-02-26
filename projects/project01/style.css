@@ -116,7 +116,7 @@ main {
     width: 100%;
     flex-direction: column;
     display:flex;
-    align-self:center;
+    align-self:flex-start;
     background: #1a6fca;
 }
 
@@ -152,6 +152,7 @@ p {
     width: 50%;
     flex-direction: row;
     display:flex;
+    justify-content: center;
 }
 
 @keyframes colors {
