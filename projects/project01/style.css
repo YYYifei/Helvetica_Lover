@@ -97,14 +97,14 @@ main {
   
 .left-column {
     width: 100%;
-    flex-direction: row;
+    flex-direction: column;
     display:flex;
     background: pink;
 }
 
 .right-column {
   width: 100%;
-  flex-direction: row;
+  flex-direction: column;
   display:flex;
   background: green;
 }
