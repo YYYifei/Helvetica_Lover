@@ -58,7 +58,7 @@ html, body {
   width: 50%;
   flex-direction: row;
   display: flex;
-  justify-content: space-around;
+  justify-content: right;
   list-style-type: none;
   background-color: rgba(255, 255, 255, 0);
   line-height: 100px;
@@ -72,7 +72,7 @@ html, body {
   line-height: 90px;
 }
 
-li {padding: 0 10px;}
+li {padding: 0 5px;}
 
 main {
     flex: 1;
