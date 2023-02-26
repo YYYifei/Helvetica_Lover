@@ -47,7 +47,7 @@ html, body {
   width: 50%;
   flex-direction: row;
   display:flex;
-  font-size: 40px;
+  font-size: 30px;
   font-family: 'Secular One', sans-serif;
   font-style: bold;
   color: black;
@@ -70,7 +70,7 @@ html, body {
   list-style-type: none;
   background: transparent;
   line-height: 90px;
-  font-size: 50px;
+  font-size: 40px;
   font-family: 'Noticia Text', serif;
   font-style: italic;
   background: transparent;
