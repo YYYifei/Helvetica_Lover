@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+.navbar
+{
+   background-color: transparent;
+}
+
 html, body {
   height: 100%;
   }
