@@ -28,10 +28,20 @@ html, body {
   display: flex;
 }
 
-.left-column01, .right-column01 {
+.left-column01 {
   width: 50%;
   flex-direction: row;
   display:flex;
+}
+
+.right-column01 {
+  width: 50%;
+  flex-direction: row;
+  display: flex;
+  justify-content: right;
+  list-style-type: none;
+  background: tomato;
+  line-height: 100px;
 }
 
 .container01 {
