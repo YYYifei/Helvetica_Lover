@@ -78,7 +78,8 @@ html, body {
 li {padding: 0 5px;}
 
 .logo01 {
-  font-family: 'Tilt Warp', cursive;
+  font-family: 'Manrope', sans-serif;
+  font-style: bold;
 }
 
 main {
