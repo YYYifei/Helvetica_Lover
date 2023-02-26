@@ -100,7 +100,7 @@ main {
   flex-wrap:nowrap;
   justify-content: left;
   font-style: bold;
-  font-size: 45px;
+  font-size: 30px;
   width: 30%;
   /*margin-bottom: 20px;*/
 }
@@ -109,7 +109,7 @@ main {
   padding-left: 20px;
   padding-right: 20px;
   background: yellow;
-  font-family: 'Gloock', serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .left-column {
