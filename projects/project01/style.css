@@ -72,6 +72,8 @@ html, body {
   line-height: 90px;
 }
 
+li {padding: 0 40px;}
+
 main {
     flex: 1;
     overflow: auto;
