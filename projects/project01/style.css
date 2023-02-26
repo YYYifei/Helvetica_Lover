@@ -122,7 +122,7 @@ main {
     flex-direction: column;
     display:flex;
     align-self:flex-start;
-    background: #1a6fca;
+    background: #2476cd;
 }
 
 .right-column {
@@ -130,7 +130,7 @@ main {
   flex-direction: column;
   display:flex;
   align-self: flex-end;
-  background: green;
+  background: rgb(17, 137, 17);
 }
 
 .smallimage {
