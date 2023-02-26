@@ -134,7 +134,8 @@ main {
 
 h1 {
     font-size: 25px;
-    font-family: 'Golos Text', sans-serif;
+    /*font-family: 'Golos Text', sans-serif;*/
+    font-family: 'Open Sans', sans-serif;
 }
 
 p {
