@@ -72,7 +72,7 @@ html, body {
   line-height: 90px;
 }
 
-li {padding: 0 40px;}
+li {padding: 0 10px;}
 
 main {
     flex: 1;
