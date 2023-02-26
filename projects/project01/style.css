@@ -77,6 +77,10 @@ html, body {
 
 li {padding: 0 5px;}
 
+.logo01 {
+  font-family: 'Tilt Warp', cursive;
+}
+
 main {
     flex: 1;
     overflow: auto;
