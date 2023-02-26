@@ -99,6 +99,7 @@ main {
     width: 100%;
     flex-direction: column;
     display:flex;
+    align-self: flex-end;
     background: pink;
 }
 
@@ -106,6 +107,7 @@ main {
   width: 100%;
   flex-direction: column;
   display:flex;
+  align-self: flex-end;
   background: green;
 }
 
