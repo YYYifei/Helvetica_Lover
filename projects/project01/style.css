@@ -10,13 +10,12 @@ html, body {
   
   body {
       font-family: "Roboto", sans-serif;
-      background: #fefae0;
       min-height: 100vh;
     }  
   
   main, body, footer {
   padding: 20px;
-  color: #004e89;
+  color: black;
   }
 
 .flex-container {
@@ -25,8 +24,8 @@ html, body {
     height: 100%;
 }
 
-header, footer {
-    line-height: 60px;
+header {
+    line-height: 100px;
 }
 
 main {
