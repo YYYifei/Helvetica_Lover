@@ -16,7 +16,7 @@ nav {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
-    background: tomato;
+    background: magenta;
     line-height: 60px;
 }
 
@@ -49,15 +49,15 @@ li:hover{ animation: colors 5s ease 0.5s;
 
 @keyframes colors {
     0% {
-        background-color: tomato;
+        background-color: magenta;
       }
       40% {
-        background-color: #CC0000;
+        background-color: rgb(162, 0, 162);
       }
       60% {
-        background-color: #800000;
+        background-color: rgb(101, 0, 101);
       }
       100% {
-        background-color: tomato;
+        background-color: magenta;
       }
     }
