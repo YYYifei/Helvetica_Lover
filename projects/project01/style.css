@@ -165,6 +165,7 @@ p {
 }
 
 .info {
+  padding: 25px;
   color:rgb(69, 161, 92);
   font-style: bold;
 }
