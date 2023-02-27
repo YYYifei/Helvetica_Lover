@@ -96,6 +96,13 @@ main {
     font-size: 120px;
 }
 
+.titleblock02 {
+  color: rgb(69, 161, 92);
+  font-family: 'Work Sans', sans-serif;
+  font-style: Light 300;
+  font-size: 100px;
+}
+
 .column-wrapper {
     display: flex;
 }
