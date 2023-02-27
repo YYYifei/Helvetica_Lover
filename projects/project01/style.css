@@ -164,7 +164,10 @@ p {
     display:flex;
 }
 
-
+.info {
+  color:rgb(69, 161, 92);
+  font-style: bold;
+}
 
 @keyframes colors {
     0% {
