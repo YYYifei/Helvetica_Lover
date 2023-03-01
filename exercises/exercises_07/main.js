@@ -7,5 +7,5 @@
 sayHello();*/
 
 const friuts = ["apple", "banana", "grapes"];
-fruits[0]; 
+fruits[0];// 
 
