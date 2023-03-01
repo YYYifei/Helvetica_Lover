@@ -1,8 +1,11 @@
-//console log(this works)
+//console log(this works);
 
 /*function sayHello() {
-    alert (“Hi!”);
+    document.write (“Hi! My name is Yifei 1”);
     }
 
 sayHello();*/
+
+const friuts = ["apple", "banana", "grapes"];
+fruits[0]; 
 
