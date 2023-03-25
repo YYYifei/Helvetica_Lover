@@ -31,7 +31,7 @@ let adjectives = ["good", "different", "possible"];
 
 let noun = nouns[Math.floor(Math.random()*nouns.length)];
 let verb = verbs[Math.floor(Math.random()*verbs.length)];
-let adjective = adjectives[Math.floor(MAth.random()*adjectives.length)];
+let adjective = adjectives[Math.floor(Math.random()*adjectives.length)];
 
 
 console.log(
