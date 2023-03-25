@@ -12,6 +12,7 @@ nav {
     list-style-type: none;
     background: tomato;
     line-height: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 a {
