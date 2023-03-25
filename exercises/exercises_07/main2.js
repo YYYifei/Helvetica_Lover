@@ -30,7 +30,7 @@ let adjectives = ["good", "different", "possible"];
 //https://css-tricks.com/snippets/javascript/select-random-item-array/
 
 let noun = nouns[Math.floor(Math.random() * nouns.length)];
-let verb = verbs[Math.floor(MAth.random() * verbs.length)];
+let verb = verbs[Math.floor(Math.random() * verbs.length)];
 let adjective = adjectives[Math.floor(MAth.random() * adjective.length)];
 
 console.log(
