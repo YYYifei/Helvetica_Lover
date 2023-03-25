@@ -29,12 +29,13 @@ let adjectives = ["good", "different", "possible"];
 //place it into the sentence
 //https://css-tricks.com/snippets/javascript/select-random-item-array/
 
-let noun = nouns[Math.floor(Math.random() * nouns.length)];
-let verb = verbs[Math.floor(Math.random() * verbs.length)];
-let adjective = adjectives[Math.floor(MAth.random() * adjectives.length)];
+let noun = nouns[Math.floor(Math.random()*nouns.length)];
+let verb = verbs[Math.floor(Math.random()*verbs.length)];
+let adjective = adjectives[Math.floor(MAth.random()*adjectives.length)];
+
 
 console.log(
-    `My ${noun} leaps ${adjective} when I ${verb} a rainbow in the sky`
+    `My ${noun} leaps ${adjective} when I ${verb} a rainbow in the sky:`
 );
 
 //string interpolation
