@@ -27,11 +27,18 @@ let adjectives = ["good", "different", "possible"];
 
 //pick a random element from each array
 //place it into the sentence
+//https://css-tricks.com/snippets/javascript/select-random-item-array/
 
+let noun = nouns[Math.floor(Math.random() * nouns.length)];
+let verb = verbs[Math.floor(MAth.random() * verbs.length)];
+let adjective = adjectives[Math.floor(MAth.random() * adjective.length)];
 
+console.log(
+    `My ${noun} leaps ${adjective} when I ${verb} a rainbow in the sky`
+);
 
 //string interpolation
 
-console.log(`My ${nouns} leaps ${adjectives} when I ${verbs} at a rainbow in the sky`)
+//console.log(`My ${nouns} leaps ${adjectives} when I ${verbs} at a rainbow in the sky`)
 
 //console.log("My " + noun + " leaps " + adjective) //concatenation
