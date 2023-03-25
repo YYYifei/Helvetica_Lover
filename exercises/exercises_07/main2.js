@@ -21,9 +21,17 @@ console.log(height) */
     console.log("Why not enjoy a float down the Lazy River?")
 } */
 
-let noun = "heart";
-let verb = "look";
-let adjective = "possible";
+let nouns = ["heart", "rainbow", "ocean"];
+let verbs = ["look", "make", "continue"];
+let adjectives = ["good", "different", "possible"];
+
+//pick a random element from each array
+//place it into the sentence
+
+
 
 //string interpolation
-console.log("My " + noun + " leaps " + adjective) //concatenation
+
+console.log(`My ${nouns} leaps ${adjectives} when I ${verbs} at a rainbow in the sky`)
+
+//console.log("My " + noun + " leaps " + adjective) //concatenation
