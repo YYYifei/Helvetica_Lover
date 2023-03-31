@@ -16,6 +16,7 @@
 
 .title {
     color: tomato;
+    align-items: center;
 }
 
 button {
