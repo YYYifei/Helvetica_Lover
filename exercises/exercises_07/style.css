@@ -4,6 +4,10 @@ h1 {
     color: tomato;
 }
 
+.title {
+justify-content: center;
+}
+
 nav {
     height: 60px;
 }
