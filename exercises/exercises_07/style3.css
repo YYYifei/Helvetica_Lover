@@ -15,7 +15,7 @@
 }*/
 
 .title {
-    color: #00ffcc;
+    color: #ff686b;
     font-family: 'Ubuntu', sans-serif;
     display: flex;
     flex-direction: column;
@@ -28,14 +28,14 @@
     margin-top: 25px;
     margin-left: 500px;
     margin-right: 500px;
-    border: 2px solid #cc00ff;
+    border: 2px solid #b3dee2;
     padding: 50px;
-    background: #ffff00;
+    background: #eaf2d7;
     text-align: center;
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: large;
     font-weight: bold;
-    color: #ff00cc;
+    color: #84dcc6;
 }
 
 button {
