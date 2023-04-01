@@ -60,7 +60,7 @@ nav {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
-    background: tomato;
+    background: #f8ad9d;
     line-height: 60px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -77,16 +77,16 @@ li:hover{ animation: colors 5s ease 0.5s;
 
 @keyframes colors {
     0% {
-        background-color: tomato;
+        background-color: #f8ad9d;
       }
       40% {
-        background-color: #CC0000;
+        background-color: #f4978e;
       }
       60% {
-        background-color: #800000;
+        background-color: #f08080;
       }
       100% {
-        background-color: tomato;
+        background-color: #f8ad9d;
       }
     }
 
