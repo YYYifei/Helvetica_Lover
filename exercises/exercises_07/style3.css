@@ -47,6 +47,7 @@ button {
     /*padding: 10px 20px;*/
     border: none;
     cursor: pointer;
+    text-align: center;
     font-size: 30px;
     margin-top: 10px;
 }
