@@ -38,11 +38,10 @@
 button {
     background-color: #ffff00;
     color: #40916c;
-    padding: 10px 20px;
+    /*padding: 10px 20px;*/
     border: none;
     cursor: pointer;
     font-size: 16px;
-    margin-top: 20px;
 }
 
 button:hover {
