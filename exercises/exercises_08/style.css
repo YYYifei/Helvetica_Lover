@@ -91,7 +91,3 @@ a {
     color: white;
 }
 
-li {padding: 0 40px;}
-li:hover{ animation: colors 5s ease 0.5s;
-}
-
