@@ -35,6 +35,12 @@
     color: #e27396;
 }
 
+.click {
+    margin-left: 500px;
+    margin-right: 500px;
+    background: #b3dee2;
+}
+
 button {
     background-color: #b3dee2;
     color: #40916c;
@@ -43,7 +49,6 @@ button {
     cursor: pointer;
     font-size: 30px;
     margin-top: 10px;
-    box-sizing: border-box;
 }
 
 button:hover {
