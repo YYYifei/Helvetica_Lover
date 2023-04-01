@@ -15,7 +15,7 @@
 }*/
 
 .title {
-    color: #ff686b;
+    color: #ea9ab2;
     font-family: 'Ubuntu', sans-serif;
     display: flex;
     flex-direction: column;
@@ -35,7 +35,7 @@
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: large;
     font-weight: bold;
-    color: #e27396;
+    color: #ff686b;
 }
 
 button {
