@@ -28,14 +28,14 @@
     margin-top: 25px;
     margin-left: 500px;
     margin-right: 500px;
-    border: 2px solid #f76c5e;
+    border: 2px solid #cc00ff;
     padding: 50px;
-    background: #f9f4e2;
+    background: #ffff00;
     text-align: center;
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: large;
     font-weight: bold;
-    color: #324376;
+    color: #ff00cc;
 }
 
 button {
