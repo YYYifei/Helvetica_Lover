@@ -18,7 +18,7 @@ let yellowBtn = document.getElementById("yellowButton");
 function switchToGray() {
   let body = document.querySelector("body");
   body.style.backgroundColor = "#ff99c8";
-  body.style.color = "#07beb8";
+  body.style.color = "#0d5c63";
 }
 
 function switchToWhite() {
