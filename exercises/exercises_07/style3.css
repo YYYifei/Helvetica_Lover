@@ -49,12 +49,13 @@ button {
     border: none;
     cursor: pointer;
     font-size: 30px;
+    font-weight: bold;
     /*margin-top: 10px;*/
 }
 
 button:hover {
-    background-color: #40916c;
-    color: #ffff00;
+    /*background-color: #40916c;*/
+    color: #ff686b;
 }
 
 nav {
