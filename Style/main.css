@@ -43,9 +43,9 @@ body {
   }
 
   ul {
-  margin-top: 10px;
     justify-content:left;
     background: #f68e5f;
+    padding: 30px;
     line-height: 20px; 
     margin: 5%; 
     list-style: none;
