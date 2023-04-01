@@ -23,8 +23,8 @@ function switchToGray() {
 
 function switchToWhite() {
     let body = document.querySelector("body");
-    body.style.backgroundColor = "white";
-    body.style.color = "black";
+    body.style.backgroundColor = "#d0f4de";
+    body.style.color = "#ff686b";
   }
 
 function switchToBlue() {
