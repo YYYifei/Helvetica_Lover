@@ -30,7 +30,7 @@ function switchToWhite() {
 function switchToBlue() {
   let body = document.querySelector("body");
   body.style.backgroundColor = "#a9def9";
-  body.style.color = "#fff0f3";
+  body.style.color = "#ffccd5";
 }
 
 function switchToYellow() {
