@@ -36,7 +36,7 @@ function switchToBlue() {
 function switchToYellow() {
   let body = document.querySelector("body");
   body.style.backgroundColor = "#e4c1f9";
-  body.style.color = "#ffee32";
+  body.style.color = "#ffff3f";
 }
 // 2 -- Add an event listener to each circle
 grayBtn.addEventListener("click", switchToGray);
