@@ -63,7 +63,7 @@ function generatePoem(n){
 }
 
 //call / invoke the function
-window.addEventListener('load', fuction(){
+window.addEventListener('load', function(){
     generatePoem(8)
 })
 //generatePoem(5)
