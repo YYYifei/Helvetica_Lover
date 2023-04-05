@@ -38,14 +38,14 @@ function selectRandomElement(array){
     return randomizer;
 }
 
-function generatePoem(){
+function generatePoem(n){
     //select a random element from each array
     let randomMaterial = selectRandomElement(materials);
     let randomPlace = selectRandomElement(places);
     let randomPeople = selectRandomElement(people);
     let randomThing = selectRandomElement(thing);
 
-    for(let i = 0; i < navigator; i++){
+    for(let i = 0; i < n; i++){
         setTimeout(generatePoem, i * 1000)
     };
 
