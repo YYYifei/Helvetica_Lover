@@ -1,3 +1,7 @@
+
+
+console.log('this work');
+
 const people = [
   { name: "adri" },
   { name: "becky" },
@@ -26,3 +30,16 @@ const people = [
   { name: "yadri" },
   { name: "zack" }
 ];
+
+const ul = document.querySelector(`ul`);
+
+function renderNamesToPage(array){
+    for(let i = 0; i < people.length; i++){
+        let li = document.createElement(`li`);
+        li.textContent = people[i].name
+
+        ul.appendChild(li)
+    }
+}
+
+renderNamesToPage(people)
