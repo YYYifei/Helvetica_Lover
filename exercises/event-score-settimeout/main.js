@@ -56,11 +56,12 @@ function generatePoem(n){
     const paragraph = document.createElement('p');
 
     //constructuin sentence
-    paragraph.textContent = `A house of ${randomMaterial} in a ${randomPlace} using ${randpmTing} inhabitated by ${randomPeople}`
+    paragraph.textContent = `A house of ${randomMaterial} \n in a ${randomPlace} \n using ${randomThing} \n inhabited by ${randomPeople}`
 
     //append the paragraph to the page
     container.appendChild(paragraph)
 }
 
-generatePoem(5)
+window.addEventListener('load', fuction(Event){generatePoem(8)})
+//generatePoem(5)
 
