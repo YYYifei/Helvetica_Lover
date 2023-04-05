@@ -62,6 +62,6 @@ function generatePoem(n){
     container.appendChild(paragraph)
 }
 
-window.addEventListener('load', fuction(Event){generatePoem(8)})
+window.addEventListener('load', fuction(){generatePoem(8)})
 //generatePoem(5)
 
