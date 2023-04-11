@@ -34,15 +34,15 @@ const people = [
   //---------- RENDER NAMES TO PAGE
   function renderNamesToPage(results) {
     // [1] iterate of the dataset
-    for(let i = 0;i < results.length; i++){
+    for(let i = 0; i < results.length; i++){
         // [2] create the list item
-        let listItem = document.createElement('li')
+        let listItem = document.createElement('li');
         // [3] add a class to the list item
-        listItem.classList.add('text-color')
+        listItem.classList.add('text-color');
         // [4] grab each name and add it to the list item
-        listItem.textContent = results[i].name
+        listItem.textContent = results[i].name;
         // [5] append the list item to the unordered list
-        ul.appendChild(listItem)
+        ul.appendChild(listItem);
     }
   }
   renderNamesToPage(people);
