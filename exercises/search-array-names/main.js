@@ -35,7 +35,7 @@ const people = [
   function renderNamesToPage(results) {
     for(let i = 0;i < results.length; i++){
         let listItem = document.createElement('li')
-        listItem.classList.add('test-color')
+        listItem.classList.add('text-color')
         listItem.textContent = results[i].name
         ul.appendChild(listItem)
     }
