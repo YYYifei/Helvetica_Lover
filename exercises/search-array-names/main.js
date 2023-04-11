@@ -48,7 +48,10 @@ const people = [
   renderNamesToPage(people);
   
   //---------- SEARCH DATASET FOR SPECIFIC NAME
-  function searchNames(e) {}
+  function searchNames(e) {
+    console.log(event.target)
+    //let searchQuery
+  }
   searchBar.addEventListener("keyup", searchNames);
   
   //---------- DISPLAY ONLY THE SPECIFIC NAME
