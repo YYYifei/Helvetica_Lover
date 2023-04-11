@@ -32,7 +32,14 @@ const people = [
   const clearButton = document.getElementById('clear')
   
   //---------- RENDER NAMES TO PAGE
-  function renderNamesToPage(data) {}
+  function renderNamesToPage(results) {
+    for(let i = 0;i < results.length; i++){
+        let listItem = document.createElement('li')
+        listItem.classList.add('test-color')
+        listItem.textContent = results[i].name
+        ul.appendChild(listItem)
+    }
+  }
   renderNamesToPage(people);
   
   //---------- SEARCH DATASET FOR SPECIFIC NAME
