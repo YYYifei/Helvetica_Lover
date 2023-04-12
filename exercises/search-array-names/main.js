@@ -65,8 +65,8 @@ const people = [
   
   //---------- DISPLAY ONLY THE SPECIFIC NAME
   function displaySearched(names) {
-    console.log('search value: ', names)
-
+    //console.log('search value: ', names)
+    clearList()
     //iterate over the searched names
     for(let i = 0; i < names.length; i++){
         // create list item
