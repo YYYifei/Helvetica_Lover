@@ -73,7 +73,7 @@ function filterFn(event) {
   console.log(event.target)
   if(event.target.classList.contains('fiter-btn')){
     //select the current active button
-   let activeBtn = filterBtns.querySelector('active')
+   let activeBtn = filterBtns.querySelector('.active')
    activeBtn.classList.remove('active')
 
    //apply the active class to the target
