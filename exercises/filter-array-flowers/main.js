@@ -47,6 +47,9 @@ function renderFlowersToPage(results) {
         //add the flower name
         let title = document.createElement('h3')
         title.textContent = result[i].name //rose
+
+        ul.appendChild(listItem)
+        listItem.appendChild(title)
     }
 }
 renderFlowersToPage(flowers);
