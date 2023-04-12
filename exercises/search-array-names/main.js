@@ -77,7 +77,9 @@ const people = [
   }
   
   //---------- CLEAR LIST BEFORE RENDERING SPECIFIC NAME
-  function clearList() {}
+  function clearList() {
+    ul.innerHTML = ""
+  }
   
   //---------- CLEAR FROM WITH BUTTON
   function clearSearchForm() {
