@@ -54,8 +54,7 @@ function renderFlowersToPage(results) {
         //add flower image
         let image = document.createElement('img')
         image.setAttribute('src', results[i].image)
-
-
+        
 
         ul.appendChild(listItem)
         listItem.appendChild(title)
