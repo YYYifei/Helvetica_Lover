@@ -70,7 +70,7 @@ function sortingFn(event) {
     if(event.target.classList.contains('filter-btn')){
         const filterValue = event.target.getAttribute('data-filter');
 
-        if(filterValue === 'assending'){
+        if(filterValue === 'ascending'){
             flowers.sort(function(a,b){
                 if(a.name < b.name){
                     return -1
