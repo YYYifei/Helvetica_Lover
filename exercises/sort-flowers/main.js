@@ -67,6 +67,7 @@ let filterBtns = document.querySelector(".filters");
 let cards = document.querySelectorAll(".card");
 
 function sortingFn(event) {
+  
     if(event.target.classList.contains('filter-btn')){
         const filterValue = event.target.getAttribute('data-filter');
 
