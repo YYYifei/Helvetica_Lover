@@ -48,13 +48,19 @@ function renderFlowersToPage(results) {
         let title = document.createElement('h3')
         title.textContent = results[i].name //rose
         //add flower color
-
+        let color = document.createElement('p')
+        color.classList.add(results[i].color)
+        color.textContent = results[i].color
         //add flower image
+        let image = document.createElement('img')
+        image.setAttribute('src', results[i].image)
 
 
-        
+
         ul.appendChild(listItem)
         listItem.appendChild(title)
+        listItem.appendChild(color)
+        listItem.appendChild(image)
     }
 }
 renderFlowersToPage(flowers);
