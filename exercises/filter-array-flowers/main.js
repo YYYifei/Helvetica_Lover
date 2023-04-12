@@ -46,8 +46,13 @@ function renderFlowersToPage(results) {
         listItem.classList.add('card', results[i].color) //red
         //add the flower name
         let title = document.createElement('h3')
-        title.textContent = result[i].name //rose
+        title.textContent = results[i].name //rose
+        //add flower color
 
+        //add flower image
+
+
+        
         ul.appendChild(listItem)
         listItem.appendChild(title)
     }
