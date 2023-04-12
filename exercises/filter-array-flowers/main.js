@@ -54,7 +54,7 @@ function renderFlowersToPage(results) {
         //add flower image
         let image = document.createElement('img')
         image.setAttribute('src', results[i].image)
-        
+
 
         ul.appendChild(listItem)
         listItem.appendChild(title)
@@ -69,5 +69,19 @@ renderFlowersToPage(flowers);
 let filterBtns = document.querySelector(".filters");
 let cards = document.querySelectorAll(".card");
 
-function filterFn(e) {}
+function filterFn(event) {
+  console.log(event.target)
+  if(event.target.classList.contains('fiter-btn')){
+    //select the current active button
+   let activeBtn = filterBtns.querySelector('active')
+   activeBtn.classList.remove('active')
+
+   //apply the active class to the target
+   event.target.classList.add('active')
+
+   const filterValue = event.target.getAttribute('data-filter')
+}
+}
+
+//function filterFn(e) {}
 filterBtns.addEventListener("click", filterFn);
