@@ -80,6 +80,15 @@ function filterFn(event) {
    event.target.classList.add('active')
 
    const filterValue = event.target.getAttribute('data-filter')
+   for(let i = 0; I < cards.length; i++){
+    if(cards[i].classList.contains(filterValue) || filterValue === 'all'){
+        cards[i].classList.remove('hide')
+        cards[i].classList.add('show')
+    } else{
+        cards[i].classList.remove('show')
+        cards[i].classList.add('hide')
+    }
+   }
 }
 }
 
