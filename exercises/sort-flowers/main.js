@@ -41,5 +41,36 @@ renderFlowersToPage(flowers);
 let filterBtns = document.querySelector(".filters");
 let cards = document.querySelectorAll(".card");
 
-function sortingFn(e) {}
+function sortingFn(event) {
+    if(event.target.classList.contains('filter-btn')){
+        const filterValue = event.target.getAttribute('data-filter');
+
+        if(filterValue === 'assending'){
+            flowers.sort(function(a,b){
+                if(a.name < b.name){
+                    return -1
+                }
+                if(a.name > b.name){
+                    return 1
+                }
+                return 0
+            })
+            ul.appendChild = ""
+            renderFlowersToPage(flowers)
+        } else if (filterValue === 'descending'){
+            flowers.sort(function(a,b){
+                if(a.name < b.name){
+                    return -1
+                }
+                if(a.name > b.name){
+                    return 1
+                }
+                return 0
+            })
+            ul.innerHTML = ""
+            renderFlowersToPage(flowers)
+        }
+
+    }
+}
 filterBtns.addEventListener("click", sortingFn);
