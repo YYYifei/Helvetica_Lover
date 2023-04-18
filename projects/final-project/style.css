@@ -2,6 +2,15 @@ nav {
     height: 60px;
 }
 
+.container {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    background: #b7e4c7;
+    line-height: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 a {
     text-decoration: none;
     color: #ffff3f;
