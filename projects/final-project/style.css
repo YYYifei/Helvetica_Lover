@@ -3,6 +3,30 @@ nav {
     width: 60%;
 }
 
+.tab01 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .item04 {
+    width: 600px;
+    height: 1750px;
+    background: #3b755f;
+    text-align: center;
+    color: #f2cb6c;
+  }
+
+  .item06 {
+    width: 500px;
+    height: 2020px;
+    background: #ff9966;
+    text-align: center;
+    color: #19227d;
+  }
+
 .container {
     display: flex;
     justify-content: space-around;
