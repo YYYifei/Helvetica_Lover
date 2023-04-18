@@ -1,11 +1,8 @@
-nav {
-    height: 50px;
-    width: 60%;
-}
+html,
 
 .tab01 {
     display: flex;
-    justify-content: space-evenly;
+    justify-content:center;
     align-items: flex-start;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -19,9 +16,14 @@ nav {
     flex-wrap: nowrap;
   }
 
+  nav {
+    height: 50px;
+    /*width: 60%;*/
+}
+
   .item04 {
     /*width: 60%;*/
-    height: 1000px;
+    height: 950px;
     background: #3b755f;
     text-align: center;
     color: #f2cb6c;
@@ -40,7 +42,7 @@ nav {
     justify-content: space-around;
     list-style-type: none;
     background: #b7e4c7;
-    line-height: 50px;
+    line-height: 60px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
