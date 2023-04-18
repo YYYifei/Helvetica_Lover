@@ -1,0 +1,29 @@
+nav {
+    height: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffff3f;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+li {padding: 0 40px;}
+li:hover{ animation: colors 5s ease 0.5s;
+}
+
+@keyframes colors {
+    0% {
+        background-color: #b7e4c7;
+      }
+      40% {
+        background-color: #74c69d;
+      }
+      60% {
+        background-color: #52b788;
+      }
+      100% {
+        background-color: #b7e4c7;
+      }
+    }
