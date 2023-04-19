@@ -1,6 +1,37 @@
-html,
 
-.tab01 {
+
+.smallimage {
+    width: 300px;
+  }
+
+  .girlimage {
+    width: 500px;
+  }
+
+.column-wrapper {
+    display:flex;
+}
+
+.left-column {
+    width: 1200px;
+    flex-direction:column;
+    justify-content:center;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    /*display:flexbox;*/
+}
+
+.right-column {
+    /*width: 40%;*/
+    flex-direction:column;
+    display:flexbox;
+    height: 1000px;
+    background: #ff9966;
+    text-align: center;
+    color: #19227d;
+}
+
+  .tab01 {
     display: flex;
     justify-content:center;
     align-items: flex-start;
@@ -16,14 +47,34 @@ html,
     flex-wrap: nowrap;
   }
 
+  .tab03 {
+    flex-direction: row;
+    /*display:flex;*/
+  }
+
+  .column-bag {
+    width: 100%;
+    flex-direction: column;
+    display:flex;
+    align-self:flex-start;
+  }
+
+  .bag {
+    padding: 25px;
+    flex-direction: row;
+    display:flex;
+  }
+
   nav {
-    height: 50px;
+    height: 66px;
     /*width: 60%;*/
 }
 
   .item04 {
-    /*width: 60%;*/
-    height: 950px;
+    padding: 25px;
+    flex-direction: row;
+    /*display:flex;*/
+    height: 869px;
     background: #3b755f;
     text-align: center;
     color: #f2cb6c;
@@ -42,7 +93,7 @@ html,
     justify-content: space-around;
     list-style-type: none;
     background: #b7e4c7;
-    line-height: 60px;
+    line-height: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
