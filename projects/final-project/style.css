@@ -60,7 +60,7 @@
   }
 
   .bag {
-    padding: 25px;
+    /*padding: 2px;*/
     flex-direction: row;
     display:flex;
   }
@@ -74,7 +74,7 @@
     padding: 25px;
     flex-direction: row;
     /*display:flex;*/
-    height: 869px;
+    /*height: 869px;*/
     background: #3b755f;
     text-align: center;
     color: #f2cb6c;
