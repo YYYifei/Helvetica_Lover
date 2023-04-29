@@ -1,3 +1,5 @@
+console.log("this works");
+
 const bags = [
     {
       name: "A01",
