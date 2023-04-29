@@ -61,6 +61,7 @@
     flex-direction: column;
     display:flex;
     align-self:flex-start;
+    overflow: scroll;
   }
 
   .bag {
