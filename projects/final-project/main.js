@@ -2,7 +2,7 @@
 const bags = [
     {
       name: "A01",
-      color: "Bag",
+      color: "bag",
       image:
         "assets/bag/1.png"
     },
