@@ -1,4 +1,3 @@
-console.log("this works");
 
 const bags = [
     {
