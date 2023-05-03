@@ -12,12 +12,16 @@ body {
 body {
   font-family: "Roboto", sans-serif;
   min-height: 100vh;
-  background-color: papayawhip;
+  background-color: #feeafa;
 }
 
 .container {
   height: 10vh;
   line-height: 60px;
+  background-color: #fefee3;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
 }
 
 .column-wrapper {
@@ -33,14 +37,14 @@ body {
 
 .right-column {
   width: 40%;
-  height: 100vh;
-  background: #ff9966;
+  height: 117vh;
+  background: #ff8fa3;
   object-fit: cover;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 img.girlimage {
-  width: 85%;
+  width: 100%;
 }
 
 .list {
@@ -48,7 +52,7 @@ img.girlimage {
   height: 90vh;
     padding: 20px;
     border: 2px solid #141414;
-    overflow: scroll;
+    /*overflow: scroll;*/
 }
 
 ul {
@@ -70,26 +74,7 @@ li {
     width: 200px;
   }
 
-/*.left-column {
-    width: 60%;
-    flex-direction:column;
-    justify-content:center;
-    align-items: flex-start;
-    flex-wrap: nowrap;
-    display:flexbox;
-}
-
-.right-column {
-    width: 40%;
-    flex-direction:column;
-    display:flexbox;
-    height: 1000px;
-    background: #ff9966;
-    text-align: center;
-    color: #19227d;
-} */
-
-  .tab01 {
+ /* .tab01 {
     display: flex;
     justify-content:center;
     align-items: flex-start;
@@ -103,26 +88,21 @@ li {
     align-items: flex-start;
     flex-direction: column;
     flex-wrap: nowrap;
-  }
-
-  .tab03 {
-    flex-direction: row;
-    /*display:flex;*/
-  }
+  }*/
 
   .column-bag {
     width: 100%;
     flex-direction: column;
     display:flex;
     align-self:flex-start;
-    /*overflow: scroll;*/
+    overflow: scroll;
   }
 
-  .bag {
-    /*padding: 2px;*/
+  /*.bag {
+    /*padding: 2px;
     flex-direction: row;
     display:flex;
-  }
+  }*/
 
   nav {
     height: 66px;
@@ -155,13 +135,6 @@ li {
     line-height: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }*/
-
-a {
-    text-decoration: none;
-    color: #ffff3f;
-    font-size: 30px;
-    font-weight: bold;
-}
 
 li {padding: 0 40px;}
 li:hover{ animation: colors 5s ease 0.5s;
@@ -223,7 +196,7 @@ li {
 }*/
 
 li:hover {
-  background: blue;
+  background: #dbe7e4;
 }
 
 ul .card.hide {
