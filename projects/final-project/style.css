@@ -167,18 +167,22 @@ li:hover{ animation: colors 5s ease 0.5s;
   width: 100%;
 }
 .filter-btn {
-  color: white;
-  background-color: #f15b31;
+  color: #ffff00;
+  background-color: #b3dee2;
   border-radius: 20px;
-  width: 100px;
-  height: 30px;
+  width: 150px;
+  height: 50px;
   text-align: center;
-  border: none;
+  border: 2px solid #52b788;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .filter-btn.active {
-  border-color: #16b5ef;
-  background: #16b5ef;
+  color:white;
+  border-color: #ff8fa3;
+  background: #ff8fa3;
 }
 
 /*ul {
