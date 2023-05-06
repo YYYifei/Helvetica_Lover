@@ -1,3 +1,4 @@
+console.log('this works')
 
 const flowers = [
     {
