@@ -1,10 +1,9 @@
 
-const bags = [
+const flowers = [
     {
       name: "A01",
       color: "bag",
-      image:
-        "assets/bag/1.png"
+      image: "assets/bag/1.png"
     },
     {
       name: "A02",
@@ -14,20 +13,17 @@ const bags = [
     {
       name: "A03",
       color: "bag",
-      image:
-        "assets/bag/5.png"
+      image: "assets/bag/5.png"
     },
     {
       name: "A04",
       color: "leatherbag",
-      image:
-        "assets/bag/6.png"
+      image: "assets/bag/6.png"
     },
     {
       name: "A05",
       color: "leatherbag",
-      image:
-        "assets/bag/8.png"
+      image: "assets/bag/8.png"
     },
     {
       name: "A06",
@@ -644,53 +640,54 @@ const bags = [
 
   const ul = document.querySelector("ul");
 
-//---------- RENDER NAMES TO PAGE
-  function renderBagsToPage(bags) {
-    for (let i = 0; i < bags.length; i++) {
+  //---------- RENDER NAMES TO PAGE
+  
+  function renderFlowersToPage(flowers) {
+    for (let i = 0; i < flowers.length; i++) {
       let list_item = document.createElement("li");
-      list_item.classList.add(bags[i].color, "card");
-// add flower name
- let title = document.createElement("h3");
- title.textContent = bags[i].name;
-// add flower color
- let color = document.createElement("p");
- color.classList.add(bags[i].color);
- color.textContent = bags[i].color;
-
- let image = document.createElement("img");
- image.setAttribute("src", bags[i].image);
-// append created elements to page
- ul.appendChild(list_item);
- list_item.appendChild(title);
- list_item.appendChild(color);
- list_item.appendChild(image);
-}
-}
-renderBagsToPage(bags);   
-
-
-//---------- FILTER FLOWERS BY COLOR
-let filterBtns = document.querySelector(".filters");
-let cards = document.querySelectorAll(".card");
-
-function filterFn(e) {
-  // console.log("clicked", e.target);
-  if (e.target.classList.contains("filter-btn")) {
-    filterBtns.querySelector(".active").classList.remove("active");
-
-    e.target.classList.add("active");
-
-    const filterValue = e.target.getAttribute("data-filter");
-
-    for (let i = 0; i < cards.length; i++) {
-      if (cards[i].classList.contains(filterValue) || filterValue === "all") {
-        cards[i].classList.remove("hide");
-        cards[i].classList.add("show");
-      } else {
-        cards[i].classList.remove("show");
-        cards[i].classList.add("hide");
+      list_item.classList.add(flowers[i].color, "card");
+      // add flower name
+      let title = document.createElement("h3");
+      title.textContent = flowers[i].name;
+      // add flower color
+      let color = document.createElement("p");
+      color.classList.add(flowers[i].color);
+      color.textContent = flowers[i].color;
+  
+      let image = document.createElement("img");
+      image.setAttribute("src", flowers[i].image);
+      // append created elements to page
+      ul.appendChild(list_item);
+      list_item.appendChild(title);
+      list_item.appendChild(color);
+      list_item.appendChild(image);
+    }
+  }
+  renderFlowersToPage(flowers);
+  
+  //---------- FILTER FLOWERS BY COLOR
+  
+  let filterBtns = document.querySelector(".filters");
+  let cards = document.querySelectorAll(".card");
+  
+  function filterFn(e) {
+    // console.log("clicked", e.target);
+    if (e.target.classList.contains("filter-btn")) {
+      filterBtns.querySelector(".active").classList.remove("active");
+  
+      e.target.classList.add("active");
+  
+      const filterValue = e.target.getAttribute("data-filter");
+  
+      for (let i = 0; i < cards.length; i++) {
+        if (cards[i].classList.contains(filterValue) || filterValue === "all") {
+          cards[i].classList.remove("hide");
+          cards[i].classList.add("show");
+        } else {
+          cards[i].classList.remove("show");
+          cards[i].classList.add("hide");
+        }
       }
     }
   }
-}
-filterBtns.addEventListener("click", filterFn);
+  filterBtns.addEventListener("click", filterFn);
