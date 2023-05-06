@@ -28,290 +28,242 @@ const flowers = [
     {
       name: "A06",
       color: "leatherbag",
-      image:
-        "assets/bag/9.png"
+      image: "assets/bag/9.png"
     },
     {
       name: "A07",
       color: "leatherbag",
-      image:
-        "assets/bag/13.png"
+      image: "assets/bag/13.png"
     },
     {
       name: "A08",
       color: "leatherbag",
-      image:
-        "assets/bag/14.png"
+      image: "assets/bag/14.png"
     },
     {
       name: "A09",
       color: "bag",
-      image:
-        "assets/bag/16.png"
+      image: "assets/bag/16.png"
     },
     {
       name: "A10",
       color: "leatherbag",
-      image:
-        "assets/bag/19.png"
+      image: "assets/bag/19.png"
     },
     {
       name: "A11",
       color: "bag",
-      image:
-        "assets/bag/23.png"
+      image: "assets/bag/23.png"
     },
     {
       name: "A12",
       color: "bag",
-      image:
-        "assets/bag/25.png"
+      image: "assets/bag/25.png"
     },
     {
       name: "A13",
       color: "leatherbag",
-      image:
-        "assets/bag/26.png"
+      image: "assets/bag/26.png"
     },
     {
       name: "A14",
       color: "leatherbag",
-      image:
-        "assets/bag/27.png"
+      image: "assets/bag/27.png"
     },
     {
       name: "A15",
       color: "leatherbag",
-      image:
-        "assets/bag/28.png"
+      image: "assets/bag/28.png"
     },
     {
       name: "A16",
       color: "leatherbag",
-      image:
-        "assets/bag/29.png"
+      image: "assets/bag/29.png"
     },
     {
       name: "A17",
       color: "leatherbag",
-      image:
-        "assets/bag/30.png"
+      image: "assets/bag/30.png"
     },
     {
       name: "A18",
       color: "leatherbag",
-      image:
-        "assets/bag/31.png"
+      image: "assets/bag/31.png"
     },
     {
       name: "A19",
       color: "leatherbag",
-      image:
-        "assets/bag/32.png"
+      image: "assets/bag/32.png"
     },
     {
       name: "A20",
       color: "leatherbag",
-      image:
-        "assets/bag/33.png"
+      image: "assets/bag/33.png"
     },
     {
       name: "A21",
       color: "leatherbag",
-      image:
-        "assets/bag/34.png"
+      image: "assets/bag/34.png"
     },
     {
       name: "A22",
       color: "leatherbag",
-      image:
-        "assets/bag/36.png"
+      image: "assets/bag/36.png"
     },
     {
       name: "A23",
       color: "leatherbag",
-      image:
-        "assets/bag/37.png"
+      image: "assets/bag/37.png"
     },
     {
       name: "A24",
       color: "leatherbag",
-      image:
-        "assets/bag/38.png"
+      image: "assets/bag/38.png"
     },
     {
       name: "A25",
       color: "leatherbag",
-      image:
-        "assets/bag/42.png"
+      image: "assets/bag/42.png"
     },
     {
       name: "A26",
       color: "leatherbag",
-      image:
-        "assets/bag/43.png"
+      image: "assets/bag/43.png"
     },
     {
       name: "A27",
       color: "leatherbag",
-      image:
-        "assets/bag/45.png"
+      image: "assets/bag/45.png"
     },
     {
       name: "A28",
       color: "leatherbag",
-      image:
-        "assets/bag/48.png"
+      image: "assets/bag/48.png"
     },
     {
       name: "A29",
       color: "leatherbag",
-      image:
-        "assets/bag/49.png"
+      image: "assets/bag/49.png"
     },
     {
       name: "A30",
       color: "leatherbag",
-      image:
-        "assets/bag/53.png"
+      image: "assets/bag/53.png"
     },
     {
       name: "A31",
       color: "leatherbag",
-      image:
-        "assets/bag/54.png"
+      image: "assets/bag/54.png"
     },
     {
       name: "A32",
       color: "leatherbag",
-      image:
-        "assets/bag/55.png"
+      image: "assets/bag/55.png"
     },
     {
       name: "A33",
       color: "bag",
-      image:
-        "assets/bag/57.png"
+      image: "assets/bag/57.png"
     },
     {
       name: "A34",
       color: "bag",
-      image:
-        "assets/bag/58.png"
+      image: "assets/bag/58.png"
     },
     {
       name: "A35",
       color: "leatherbag",
-      image:
-        "assets/bag/60.png"
+      image: "assets/bag/60.png"
     },
     {
       name: "A36",
       color: "leatherbag",
-      image:
-        "assets/bag/62.png"
+      image: "assets/bag/62.png"
     },
     {
       name: "A37",
       color: "leatherbag",
-      image:
-        "assets/bag/65.png"
+      image: "assets/bag/65.png"
     },
     {
       name: "A38",
       color: "bag",
-      image:
-        "assets/bag/67.png"
+      image: "assets/bag/67.png"
     },
     {
       name: "A39",
       color: "bag",
-      image:
-        "assets/bag/68.png"
+      image: "assets/bag/68.png"
     },
     {
       name: "A40",
       color: "leatherbag",
-      image:
-        "assets/bag/69.png"
+      image: "assets/bag/69.png"
     },
     {
       name: "A41",
       color: "bag",
-      image:
-        "assets/bag/70.png"
+      image: "assets/bag/70.png"
     },
     {
       name: "A42",
       color: "leatherbag",
-      image:
-        "assets/bag/71.png"
+      image: "assets/bag/71.png"
     },
     {
       name: "A43",
       color: "leatherbag",
-      image:
-        "assets/bag/72.png"
+      image: "assets/bag/72.png"
     },
     {
       name: "A44",
       color: "leatherbag",
-      image:
-        "assets/bag/73.png"
+      image: "assets/bag/73.png"
     },
     {
       name: "A45",
       color: "leatherbag",
-      image:
-        "assets/bag/74.png"
+      image: "assets/bag/74.png"
     },
     {
       name: "A46",
       color: "leatherbag",
-      image:
-        "assets/bag/75.png"
+      image:  "assets/bag/75.png"
     },
     {
       name: "A47",
       color: "leatherbag",
-      image:
-        "assets/bag/77.png"
+      image: "assets/bag/77.png"
     },
     {
       name: "A48",
       color: "leatherbag",
-      image:
-        "assets/bag/79.png"
+      image: "assets/bag/79.png"
     },
     {
       name: "A49",
       color: "leatherbag",
-      image:
-        "assets/bag/82.png"
+      image: "assets/bag/82.png"
     },
     {
       name: "A50",
       color: "bag",
-      image:
-        "assets/bag/83.png"
+      image: "assets/bag/83.png"
     },
     {
       name: "A51",
       color: "bag",
-      image:
-        "assets/bag/84.png"
+      image: "assets/bag/84.png"
     },
     {
       name: "A52",
       color: "bag",
-      image:
-        "assets/bag/85.png"
+      image: "assets/bag/85.png"
     },
     {
       name: "A53",
       color: "bag",
-      image:
-        "assets/bag/86.png"
+      image: "assets/bag/86.png"
     },
     {
       name: "A54",
@@ -322,245 +274,203 @@ const flowers = [
     {
       name: "A55",
       color: "leatherbag",
-      image:
-        "assets/bag/88.png"
+      image: "assets/bag/88.png"
     },
     {
       name: "A56",
       color: "leatherbag",
-      image:
-        "assets/bag/89.png"
+      image: "assets/bag/89.png"
     },
     {
       name: "A57",
       color: "leatherbag",
-      image:
-        "assets/bag/90.png"
+      image: "assets/bag/90.png"
     },
     {
       name: "A58",
       color: "bag",
-      image:
-        "assets/bag/95.png"
+      image: "assets/bag/95.png"
     },
     {
       name: "A59",
       color: "bag",
-      image:
-        "assets/bag/96.png"
+      image: "assets/bag/96.png"
     },
     {
       name: "A60",
       color: "leatherbag",
-      image:
-        "assets/bag/97.png"
+      image: "assets/bag/97.png"
     },
     {
       name: "A61",
       color: "bag",
-      image:
-        "assets/bag/99.png"
+      image: "assets/bag/99.png"
     },
     {
       name: "A62",
       color: "bag",
-      image:
-        "assets/bag/100.png"
+      image: "assets/bag/100.png"
     },
     {
       name: "A63",
       color: "bag",
-      image:
-        "assets/bag/101.png"
+      image: "assets/bag/101.png"
     },
     {
       name: "A64",
       color: "bag",
-      image:
-        "assets/bag/102.png"
+      image: "assets/bag/102.png"
     },
     {
       name: "A65",
       color: "bag",
-      image:
-        "assets/bag/103.png"
+      image: "assets/bag/103.png"
     },
     {
       name: "A66",
       color: "bag",
-      image:
-        "assets/bag/104.png"
+      image: "assets/bag/104.png"
     },
     {
       name: "A67",
       color: "leatherbag",
-      image:
-        "assets/bag/105.png"
+      image: "assets/bag/105.png"
     },
     {
       name: "A68",
       color: "bag",
-      image:
-        "assets/bag/106.png"
+      image: "assets/bag/106.png"
     },
     {
       name: "A69",
       color: "bag",
-      image:
-        "assets/bag/108.png"
+      image: "assets/bag/108.png"
     },
     {
       name: "A70",
       color: "bag",
-      image:
-        "assets/bag/109.png"
+      image: "assets/bag/109.png"
     },
     {
       name: "A71",
       color: "bag",
-      image:
-        "assets/bag/110.png"
+      image: "assets/bag/110.png"
     },
     {
       name: "A72",
       color: "bag",
-      image:
-        "assets/bag/111.png"
+      image: "assets/bag/111.png"
     },
     {
       name: "A73",
       color: "leatherbag",
-      image:
-        "assets/bag/112.png"
+      image: "assets/bag/112.png"
     },
     {
       name: "A74",
       color: "leatherbag",
-      image:
-        "assets/bag/113.png"
+      image: "assets/bag/113.png"
     },
     {
       name: "A75",
       color: "leatherbag",
-      image:
-        "assets/bag/114.png"
+      image: "assets/bag/114.png"
     },
-    
     {
         name: "B01",
         color: "dress",
-        image:
-          "assets/dress/dress01.png"
+        image: "assets/dress/dress01.png"
       },
       {
         name: "B02",
         color: "dress",
-        image:
-          "assets/dress/dress02.png"
+        image: "assets/dress/dress02.png"
       },
       {
         name: "B03",
         color: "dress",
-        image:
-          "assets/dress/dress03.png"
+        image: "assets/dress/dress03.png"
       },
       {
         name: "B04",
         color: "dress",
-        image:
-          "assets/dress/dress04.png"
+        image: "assets/dress/dress04.png"
       },
       {
         name: "B05",
         color: "dress",
-        image:
-          "assets/dress/dress05.png"
+        image: "assets/dress/dress05.png"
       },
       {
         name: "B06",
         color: "dress",
-        image:
-          "assets/dress/dress06.png"
+        image: "assets/dress/dress06.png"
       },
       {
         name: "B07",
         color: "dress",
-        image:
-          "assets/dress/dress07.png"
+        image: "assets/dress/dress07.png"
       },
       {
         name: "B08",
         color: "dress",
-        image:
-          "assets/dress/dress08.png"
+        image: "assets/dress/dress08.png"
       },
       {
         name: "B09",
         color: "dress",
-        image:
-          "assets/dress/dress09.png"
+        image: "assets/dress/dress09.png"
       },
       {
         name: "B10",
         color: "dress",
-        image:
-          "assets/dress/dress10.png"
+        image: "assets/dress/dress10.png"
       },
       {
         name: "B11",
         color: "dress",
-        image:
-          "assets/dress/dress11.png"
+        image: "assets/dress/dress11.png"
       },
       {
         name: "B12",
         color: "dress",
-        image:
-          "assets/dress/dress12.png"
+        image: "assets/dress/dress12.png"
       },
       {
         name: "B13",
         color: "dress",
-        image:
-          "assets/dress/dress13.png"
+        image: "assets/dress/dress13.png"
       },
       {
         name: "B14",
         color: "dress",
-        image:
-          "assets/dress/dress14.png"
+        image: "assets/dress/dress14.png"
       },
       {
         name: "B15",
         color: "dress",
-        image:
-          "assets/dress/blouse01.png"
+        image: "assets/dress/blouse01.png"
       },
       {
         name: "B16",
         color: "dress",
-        image:
-          "assets/dress/blouse02.png"
+        image: "assets/dress/blouse02.png"
       },
       {
         name: "B17",
         color: "dress",
-        image:
-          "assets/dress/blouse03.png"
+        image: "assets/dress/blouse03.png"
       },
       {
         name: "B18",
         color: "dress",
-        image:
-          "assets/dress/skirt01.png"
+        image: "assets/dress/skirt01.png"
       },
       {
         name: "B19",
         color: "dress",
-        image:
-          "assets/dress/skirt02.png"
+        image: "assets/dress/skirt02.png"
       },
-
     {
       name: "C01",
       color: "jewelry",
