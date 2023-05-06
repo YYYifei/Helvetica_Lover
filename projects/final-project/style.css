@@ -97,7 +97,7 @@ li {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }*/
 
-li {padding: 0 40px;}
+/*li {padding: 0 40px;}
 li:hover{ animation: colors 5s ease 0.5s;
 }
 
@@ -114,7 +114,7 @@ li:hover{ animation: colors 5s ease 0.5s;
       100% {
         background-color: #b7e4c7;
       }
-    }
+    }*/
 
 /*.list {
     background-color: #f15b31; 
@@ -125,7 +125,7 @@ li:hover{ animation: colors 5s ease 0.5s;
   overflow: scroll;
 }*/
 .list img{
-  width: 100%;
+  width: 60%;
 }
 .filter-btn {
   color: #ffff00;
@@ -146,19 +146,11 @@ li:hover{ animation: colors 5s ease 0.5s;
   background: #ff8fa3;
 }
 
-/*ul {
+ul {
   display: flex;
      flex-wrap: wrap; 
   justify-content: space-between;
 }
-
-li {
-  list-style-type: none;
-  border: 2px solid #141414;
-  padding: 10px;
-  margin: 10px;
-  width: 20%;
-}*/
 
 li:hover {
   background: #dbe7e4;
