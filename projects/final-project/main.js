@@ -1,6 +1,6 @@
 console.log('this works')
 
-const flowers = [
+const bags = [
     {
       name: "A01",
       color: "bag",
@@ -553,20 +553,20 @@ const flowers = [
 
   //---------- RENDER NAMES TO PAGE
   
-  function renderFlowersToPage(flowers) {
-    for (let i = 0; i < flowers.length; i++) {
+  function renderBagsToPage(bags) {
+    for (let i = 0; i < bags.length; i++) {
       let list_item = document.createElement("li");
-      list_item.classList.add(flowers[i].color, "card");
-      // add flower name
+      list_item.classList.add(bags[i].color, "card");
+      // add  name
       let title = document.createElement("h3");
-      title.textContent = flowers[i].name;
-      // add flower color
+      title.textContent = bags[i].name;
+      // add  color
       let color = document.createElement("p");
-      color.classList.add(flowers[i].color);
-      color.textContent = flowers[i].color;
+      color.classList.add(bags[i].color);
+      color.textContent = bags[i].color;
   
       let image = document.createElement("img");
-      image.setAttribute("src", flowers[i].image);
+      image.setAttribute("src", bags[i].image);
       // append created elements to page
       ul.appendChild(list_item);
       list_item.appendChild(title);
@@ -574,7 +574,7 @@ const flowers = [
       list_item.appendChild(image);
     }
   }
-  renderFlowersToPage(flowers);
+  renderBagsToPage(bags);
   
   //---------- FILTER FLOWERS BY COLOR
   
@@ -582,7 +582,7 @@ const flowers = [
   let cards = document.querySelectorAll(".card");
   
   function filterFn(e) {
-    // console.log("clicked", e.target);
+     console.log("clicked", e.target);
     if (e.target.classList.contains("filter-btn")) {
       filterBtns.querySelector(".active").classList.remove("active");
   
