@@ -25,14 +25,14 @@ body {
 
 .right-column {
   width: 40%;
-  height: 100vh;
+  height: 117vh;
   background: #ff8fa3;
   object-fit: cover;
   /*overflow: hidden;*/
 }
 
 img.girlimage {
-  width: 80%;
+  width: 100%;
 }
 
 .filters {
@@ -51,13 +51,13 @@ img.girlimage {
   background-color: #feeafa; 
   padding: 20px;
   display: flex; 
-  border: 2px solid #141414;
+  border: 2px solid #52b788;
   width: 100%;
   flex-direction: column;
   align-self:flex-start;
   overflow: scroll;
   flex: 1;
-  height: 100vh;
+  height: 107vh;
 }
 
 .filter-btn {
@@ -93,12 +93,12 @@ li {
   border: 2px solid #141414;
   padding: 10px;
   margin: 10px;
-  width: 30vh;
+  width: 23vh;
   height: 35vh;
 }
 
 li:hover {
-  background: blue;
+  background: #dbe7e4;
 }
 
 ul .card.hide {
