@@ -42,7 +42,7 @@ const flowers = [
       {
         name: "A09",
         color: "bag",
-        image: "assets/bag/16.png"
+        image: "assets/bag/18.png"
       },
       {
         name: "A10",
