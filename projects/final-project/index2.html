@@ -14,8 +14,13 @@
     <!-- stylesheets -->
     <link rel="stylesheet" href="style2.css">
 </head>
+
 <body>
+<div class="column-wrapper">
+
+  <div class="left-column">
     <div class="container">
+      
         <div class="filters">
           <button class="filter-btn" data-filter="bag">BAG</button>
           <button class="filter-btn" data-filter="leatherbag">LEATHER BAG</button>
@@ -23,11 +28,24 @@
           <button class="filter-btn" data-filter="jewelry">JEWELRY</button>
           <button class="filter-btn active" data-filter="all">All</button>
         </div>
+    
+
         <div class="list">
           <ul></ul>
         </div>
-      </div>
 
+    </div>
+
+  <!-- div for "left-column" -->
+  </div>
+
+  <div class="right-column">
+    <p style="margin: 20px;"><img class="girlimage" src="assets/0418_girl_2.png" alt=""></p>
+  <!-- div for "right-column" --> 
+  </div>
+
+ <!-- div for "column-wrapper" -->
+</div>
       <script src="main2.js"></script>
 </body>
 </html>
