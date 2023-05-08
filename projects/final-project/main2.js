@@ -256,17 +256,17 @@ const flowers = [
       },
       {
         name: "A52",
-        color: "bag",
+        color: "leatherbag",
         image: "assets/bag/85.png"
       },
       {
         name: "A53",
-        color: "bag",
+        color: "leatherbag",
         image: "assets/bag/86.png"
       },
       {
         name: "A54",
-        color: "bag",
+        color: "leatherbag",
         image:
           "assets/bag/87.png"
       },
@@ -337,7 +337,7 @@ const flowers = [
       },
       {
         name: "A68",
-        color: "bag",
+        color: "leatherbag",
         image: "assets/bag/106.png"
       },
       {
@@ -352,12 +352,12 @@ const flowers = [
       },
       {
         name: "A71",
-        color: "bag",
+        color: "leatherbag",
         image: "assets/bag/110.png"
       },
       {
         name: "A72",
-        color: "bag",
+        color: "leatherbag",
         image: "assets/bag/111.png"
       },
       {
@@ -372,8 +372,43 @@ const flowers = [
       },
       {
         name: "A75",
+        color: "bag",
+        image: "assets/bag/2.png"
+      },
+      {
+        name: "A76",
+        color: "bag",
+        image: "assets/bag/4.png"
+      },
+      {
+        name: "A77",
         color: "leatherbag",
         image: "assets/bag/114.png"
+      },
+      {
+        name: "A78",
+        color: "bag",
+        image: "assets/bag/46.png"
+      },
+      {
+        name: "A79",
+        color: "bag",
+        image: "assets/bag/47.png"
+      },
+      {
+        name: "A80",
+        color: "bag",
+        image: "assets/bag/59.png"
+      },
+      {
+        name: "A81",
+        color: "bag",
+        image: "assets/bag/92.png"
+      },
+      {
+        name: "A82",
+        color: "bag",
+        image: "assets/bag/93.png"
       },
       {
           name: "B01",
