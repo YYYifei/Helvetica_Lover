@@ -543,7 +543,7 @@ const flowers = [
         {
           name: "C15",
           color: "jewelry",
-          image: "assets/jewelry/N14.png"
+          image: "assets/jewelry/N15.png"
         }
   ];
   
