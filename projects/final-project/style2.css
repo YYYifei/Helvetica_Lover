@@ -48,11 +48,15 @@ img.girlimage {
 }
 
 .list {
-  /*   background-color: #f15b31; */
+  background-color: #feeafa; 
   padding: 20px;
   /*   display: flex; */
   border: 2px solid #141414;
   width: 100%;
+    flex-direction: column;
+    display:flex;
+    align-self:flex-start;
+    overflow: scroll;
 }
 
 .filter-btn {
