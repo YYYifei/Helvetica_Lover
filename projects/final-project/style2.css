@@ -92,14 +92,14 @@ ul {
 li {
   list-style-type: none;
   /*border: 2px solid #141414;*/
-  padding: 10px;
+  padding: 30px;
   margin: 10px;
-  width: 20vh;
+  width: 30vh;
   height: 25vh;
 }
 
 .list img{
-  width: 90%;
+  width: 85%;
 }
 
 li:hover {
