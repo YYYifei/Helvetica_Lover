@@ -52,14 +52,14 @@ img.girlimage {
 
 .list {
   background-color: #fffcf2;
-  padding: 20px;
+  padding: 30px;
   display: flex; 
   border: 2px solid #52b788;
   width: 100%;
   flex-direction: column;
   align-self:flex-start;
   overflow: scroll;
-  flex: 1;
+  /*flex: 1;*/
   height: 107vh;
 }
 
