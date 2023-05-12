@@ -72,11 +72,10 @@ img.girlimage {
   height: 40px;
   text-align: center;
   /*border: 2px solid #52b788;*/
-  border: 2px solid yellow;
+  /*border: 2px solid yellow;*/
   cursor: pointer;
   font-size: 15px;
   font-weight: bold;
-  /*border: none;*/
 }
 
 .filter-btn.active {
