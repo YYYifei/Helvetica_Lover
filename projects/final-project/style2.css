@@ -154,11 +154,11 @@ img {
   /*height: 150px;*/
 }
 
-.container{
+/*.container{
   height: 100vh;
   display: flex;
   align-items: center;
-  
+
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
@@ -168,4 +168,4 @@ img {
   height: 200px;
   width: 200px;
   border: 2px solid #52b788;
-}
+}*/
