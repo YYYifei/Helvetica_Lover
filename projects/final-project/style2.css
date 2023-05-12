@@ -27,7 +27,8 @@ body {
 .right-column {
   width: 40%;
   height: 117vh;
-  background: #ff8fa3;
+  /*background: #ff8fa3;*/
+  background: #feeafa;
   object-fit: cover;
   /*overflow: hidden;*/
 }
@@ -37,7 +38,7 @@ img.girlimage {
 }
 
 .filters {
-  background-color: #fefee3; 
+  /*background-color: #fefee3;*/
   padding: 20px;
   display: flex;
   height: 10vh;
@@ -49,7 +50,7 @@ img.girlimage {
 }
 
 .list {
-  background-color: #feeafa; 
+  /*background-color: #feeafa;*/
   padding: 20px;
   display: flex; 
   border: 2px solid #52b788;
@@ -63,12 +64,14 @@ img.girlimage {
 
 .filter-btn {
   color: #ffff00;
-  background-color: #b3dee2;
+  /*background-color: #b3dee2;*/
+  background-color: black;
   border-radius: 20px;
   width: 120px;
   height: 40px;
   text-align: center;
-  border: 2px solid #52b788;
+  /*border: 2px solid #52b788;*/
+  border: 2px solid #ffff00;
   cursor: pointer;
   font-size: 15px;
   font-weight: bold;
@@ -79,8 +82,8 @@ img.girlimage {
   /*border-color: #16b5ef;
   background: #16b5ef;*/
   color:white;
-  border-color: #ff8fa3;
-  background: #ff8fa3;
+  border-color: rgb(26, 111, 206);
+  background: rgb(26, 111, 206);
 }
 
 ul {
@@ -103,7 +106,8 @@ li {
 }
 
 li:hover {
-  background: #dbe7e4;
+  /*background: #dbe7e4;*/
+  background: rgb(69, 161, 92);
 }
 
 ul .card.hide {
