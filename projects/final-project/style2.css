@@ -39,7 +39,7 @@ img.girlimage {
 
 .filters {
   /*background-color: #fefedf;*/
-  background-color: #ffcad4;
+  background-color: #cce3de;
   padding: 20px;
   display: flex;
   height: 10vh;
@@ -66,13 +66,13 @@ img.girlimage {
 .filter-btn {
   color: #ffff00;
   /*background-color: #b3dee2;*/
-  background-color: #ff4d6d;
+  background-color: #ffb3c6;
   border-radius: 20px;
   width: 120px;
   height: 40px;
   text-align: center;
   /*border: 2px solid #52b788;*/
-  border: 2px solid #ff4d6d;
+  border: 2px solid #ffb3c6;
   cursor: pointer;
   font-size: 15px;
   font-weight: bold;
@@ -105,7 +105,7 @@ li {
 }
 
 .list img{
-  width: 70%;
+  width: 80%;
 }
 
 li:hover {
