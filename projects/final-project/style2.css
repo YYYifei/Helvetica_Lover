@@ -59,7 +59,7 @@ img.girlimage {
   flex-direction: column;
   align-self:flex-start;
   overflow: scroll;
-  /*flex: 1;*/
+  flex: 1;
   height: 107vh;
 }
 
@@ -72,9 +72,11 @@ img.girlimage {
   height: 40px;
   text-align: center;
   /*border: 2px solid #52b788;*/
+  border: 2px solid #ff4d6d;
   cursor: pointer;
   font-size: 15px;
   font-weight: bold;
+  /*border: none;*/
 }
 
 .filter-btn.active {
@@ -108,7 +110,7 @@ li {
 
 li:hover {
   /*background: #dbe7e4;*/
-  background: rgb(69, 161, 92);
+  background: #b7e4c7;
 }
 
 ul .card.hide {
@@ -127,6 +129,25 @@ ul .card.show {
     opacity: 1;
   }
 }
+
+li {padding: 0 40px;}
+li:hover{ animation: colors 2s ease 0.5s;
+}
+
+@keyframes colors {
+    0% {
+        background-color: #b7e4c7;
+      }
+      40% {
+        background-color: #74c69d;
+      }
+      60% {
+        background-color: #52b788;
+      }
+      100% {
+        background-color: #b7e4c7;
+      }
+    }
 
 img {
   width: 100%;
