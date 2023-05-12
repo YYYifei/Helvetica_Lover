@@ -38,19 +38,20 @@ img.girlimage {
 }
 
 .filters {
-  /*background-color: #fefee3;*/
+  /*background-color: #fefedf;*/
+  background-color: #ffcad4;
   padding: 20px;
   display: flex;
   height: 10vh;
   line-height: 60px;
   flex-direction: row;
   justify-content:space-evenly;
-  /*   border: 2px solid #141414; */
+  border: 2px solid #52b788; 
   width: 100%;
 }
 
 .list {
-  /*background-color: #feeafa;*/
+  background-color: #fffcf2;
   padding: 20px;
   display: flex; 
   border: 2px solid #52b788;
@@ -65,13 +66,13 @@ img.girlimage {
 .filter-btn {
   color: #ffff00;
   /*background-color: #b3dee2;*/
-  background-color: black;
+  background-color: #ff4d6d;
   border-radius: 20px;
   width: 120px;
   height: 40px;
   text-align: center;
   /*border: 2px solid #52b788;*/
-  border: 2px solid #ffff00;
+  border: 2px solid yellow;
   cursor: pointer;
   font-size: 15px;
   font-weight: bold;
@@ -82,8 +83,9 @@ img.girlimage {
   /*border-color: #16b5ef;
   background: #16b5ef;*/
   color:white;
-  border-color: rgb(26, 111, 206);
-  background: rgb(26, 111, 206);
+  border-color: #52b788;
+  background: #52b788;
+  /*background: rgb(26, 111, 206);*/
 }
 
 ul {
@@ -95,6 +97,7 @@ ul {
 li {
   list-style-type: none;
   /*border: 2px solid #141414;*/
+  color:rgb(69, 161, 92);
   padding: 30px;
   margin: 10px;
   width: 30vh;
@@ -102,7 +105,7 @@ li {
 }
 
 .list img{
-  width: 85%;
+  width: 70%;
 }
 
 li:hover {
