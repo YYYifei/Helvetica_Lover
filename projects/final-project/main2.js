@@ -636,3 +636,17 @@ const flowers = [
   }
   filterBtns.addEventListener("click", filterFn);
   
+const list = document.querySelectorAll(".list");
+const girlimage = document.querySelectorAll(".girlimage");
+
+// Fill Listeners
+list.addEventListener('dragstart', dragStart);
+list.addEventListener('dragend', dragEnd);
+
+// Drag Function
+function dragStart() {
+  console.log('start');
+}
+function dragEnd() {
+  console.log('end');
+}
